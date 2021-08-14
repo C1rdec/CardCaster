@@ -27,11 +27,6 @@ namespace CardCaster
 
         #region Methods
 
-        public void Start()
-        {
-            this.DisplayRootViewFor<ShellViewModel>();
-        }
-
         /// <summary>
         /// Override this to add custom behavior to execute after the application starts.
         /// </summary>
