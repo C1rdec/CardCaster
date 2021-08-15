@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Caliburn.Micro;
-using CardCaster.ViewModels;
+using CardCaster.UI.ViewModels;
 
-namespace CardCaster
+namespace CardCaster.UI
 {
     public class AppBootstrapper : BootstrapperBase
     {

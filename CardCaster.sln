@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31606.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "CardCaster (Package)", "CardCaster\CardCaster (Package)\CardCaster (Package).wapproj", "{404B8FFA-FF05-4D32-863F-9CB86A8F632C}"
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "CardCaster.UI (Package)", "CardCaster\CardCaster (Package)\CardCaster.UI (Package).wapproj", "{404B8FFA-FF05-4D32-863F-9CB86A8F632C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardCaster", "CardCaster\CardCaster\CardCaster.csproj", "{59642822-8B38-4B71-A6EE-6312478BEED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardCaster.UI", "CardCaster\CardCaster\CardCaster.UI.csproj", "{59642822-8B38-4B71-A6EE-6312478BEED8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

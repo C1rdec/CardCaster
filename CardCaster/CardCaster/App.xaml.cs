@@ -3,7 +3,7 @@
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace CardCaster
+namespace CardCaster.UI
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
@@ -17,6 +17,14 @@ namespace CardCaster
         public App()
         {
             this.InitializeComponent();
+        }
+
+        protected override void OnLaunched(LaunchActivatedEventArgs args)
+        {
+            base.OnLaunched(args);
+
+            var main = new MainWindow();
+            main.Activate();
         }
     }
 }
